@@ -1,0 +1,31 @@
+from DemoWebShop.lib.library import Base
+
+class Review(Base):
+    login_link_locator = ("xpath", "//a[.='Log in']")
+    email_locator = ("id", "Email")
+    password_locator = ("id", "Password")
+    login_btn = ("xpath", "//input[@value='Log in']")
+    jewellery_locator=("xpath","//div[@class='header-menu']/..//a[@href='/jewelry']")
+    range_locator=("xpath","//a[@href='https://demowebshop.tricentis.com/jewelry?price=0-500']")
+    product_locator=("xpath","//a[.='Black & White Diamond Heart']")
+    review_locator=("xpath","//a[.='Add your review']")
+    review_title_locator=("id","AddProductReview_Title")
+    review_text_locator=("id","AddProductReview_ReviewText")
+    rating_locator=("xpath","//input[@value='4']")
+    submit_locator=("name","add-review")
+    logout_locator=("xpath","//li[.='Log out']")
+
+    def review(self,email,password,text,review):
+        self.click_on_a_element(self.login_link_locator)
+        self.send_keys_to_text_field(self.email_locator,email)
+        self.send_keys_to_text_field(self.password_locator,password)
+        self.click_on_a_element(self.login_btn)
+        self.click_on_a_element(self.jewellery_locator)
+        self.click_on_a_element(self.range_locator)
+        self.click_on_a_element(self.product_locator)
+        self.click_on_a_element(self.review_locator)
+        self.send_keys_to_text_field(self.review_title_locator,text)
+        self.send_keys_to_text_field(self.review_text_locator,review)
+        self.click_on_a_element(self.rating_locator)
+        self.click_on_a_element(self.submit_locator)
+        self.click_on_a_element(self.logout_locator)

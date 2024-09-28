@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab76fd94-0f9d-42a1-a043-a735997f6e0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hybrid_framework1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/add_product_2_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/addresspage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/advancesearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/buy_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/changepasswordpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/emailfriendpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/filter_conditionpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/querypage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/recently_searched.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/reviewpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/search_and_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/shopping_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/POM/wishlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_add_pro_2_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_addresspage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_advancesearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_buyproduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_changepassowrd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_emailfriend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_filterconditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_recentlysearched.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_search_and_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_shopingcart_conditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_shoppingcart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Test Suite/test_wishlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Utilities/exel_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/Utilities/locatorsHub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoWebShop/lib/library.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2mgyNppFAnZZw3GTLnAcxvINJgT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests in test_add_pro_2_cart.py.executor": "Run",
+    "Python tests.Python tests in test_addresspage.py.executor": "Run",
+    "Python tests.Python tests in test_advancesearch.py.executor": "Run",
+    "Python tests.Python tests in test_buyproduct.py.executor": "Run",
+    "Python tests.Python tests in test_changepassowrd.py.executor": "Run",
+    "Python tests.Python tests in test_filterconditions.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_search.py.executor": "Run",
+    "Python tests.Python tests in test_search_and_compare.py.executor": "Run",
+    "Python tests.Python tests in test_shopingcart_conditions.py.executor": "Run",
+    "Python tests.Python tests in test_shoppingcart.py.executor": "Run",
+    "Python tests.Python tests in test_wishlist.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab76fd94-0f9d-42a1-a043-a735997f6e0e" name="Changes" comment="" />
+      <created>1727512477012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727512477012</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

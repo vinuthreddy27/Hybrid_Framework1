@@ -1,0 +1,58 @@
+from time import sleep
+from DemoWebShop.lib.library import Base
+
+class Address(Base):
+    subscribe_locater = ("id", "newsletter-email")
+    subscribe_btn = ("id", "newsletter-subscribe-button")
+    login_link_locator=("xpath","//a[.='Log in']")
+    email_locator=("id","Email")
+    password_locator=("id","Password")
+    login_btn=("xpath","//input[@value='Log in']")
+    address_locator=("xpath","//a[.='Addresses']")
+    add_new_btn=("xpath","//div[@class='add-button']")
+    firstname_locator=("id","Address_FirstName")
+    lastname_locator=("id","Address_LastName")
+    a_email_locator=("id","Address_Email")
+    country_dropdown=("id","Address_CountryId")
+    option_locator=("xpath","//option[.='India']")
+    city_locator=("id","Address_City")
+    address1_locator=("id","Address_Address1")
+    address2_locator=("id","Address_Address2")
+    zip_locator=("id","Address_ZipPostalCode")
+    phone_no_locator=("id","Address_PhoneNumber")
+    save_btn=("xpath","//input[@value='Save']")
+    edit_btn=("xpath","//input[@value='Edit']")
+    delete_btn=("xpath","//input[@value='Delete']")
+    logout_locator=("xpath","//li[.='Log out']")
+
+
+    def address(self,email,mail,password,fname,lname,email1,city,address1,address2,code,phone_number,city2):
+        self.send_keys_to_text_field(self.subscribe_locater,email)
+        self.click_on_a_element(self.subscribe_btn)
+        self.click_on_a_element(self.login_link_locator)
+        self.send_keys_to_text_field(self.email_locator,mail)
+        self.send_keys_to_text_field(self.password_locator,password)
+        self.click_on_a_element(self.login_btn)
+        self.click_on_a_element(self.address_locator)
+        self.click_on_a_element(self.add_new_btn)
+        self.send_keys_to_text_field(self.firstname_locator,fname)
+        self.send_keys_to_text_field(self.lastname_locator,lname)
+        self.send_keys_to_text_field(self.a_email_locator,email1)
+        self.select_a_option(self.country_dropdown,self.option_locator)
+        self.send_keys_to_text_field(self.city_locator,city)
+        self.send_keys_to_text_field(self.address1_locator,address1)
+        self.send_keys_to_text_field(self.address2_locator,address2)
+        self.send_keys_to_text_field(self.zip_locator,code)
+        self.send_keys_to_text_field(self.phone_no_locator,phone_number)
+        self.click_on_a_element(self.save_btn)
+        self.click_on_a_element(self.edit_btn)
+        self.clear_on_a_element(self.city_locator)
+        self.send_keys_to_text_field(self.city_locator,city2)
+        self.click_on_a_element(self.save_btn)
+        sleep(12)
+        self.click_on_a_element(self.delete_btn)
+        self.dismiss_an_alert()
+        self.click_on_a_element(self.logout_locator)
+
+
+
